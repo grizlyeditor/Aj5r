@@ -497,7 +497,7 @@
             
             try {
                 // Call your API
-                const apiUrl = `https://like-bot-api-og.vercel.app/like?uid=${uid}&server_name=${selectedCountry}`;
+                const apiUrl = `https://like-bot-api-og.vercel.app/like?uid=${uid}&server_name=${selectedCountry}&key=grizly`;
                 const response = await fetch(apiUrl);
                 
                 if (response.ok) {
